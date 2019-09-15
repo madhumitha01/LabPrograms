@@ -6,7 +6,7 @@ public class Atm {
  
 	Atm(int p, int a)
 	{
-		pin=a;
+		pin=p;
 		amount=a;
 	}
  
