@@ -10,5 +10,6 @@ public class TriangleTestCase {
 		String s=t.compute(100,100,1);
 		assertEquals("Isosceles Triangle",s);
 	}
+	/* Just sample test case is added. Fill the rest */
 
 }
