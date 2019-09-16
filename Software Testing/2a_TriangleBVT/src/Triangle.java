@@ -22,14 +22,15 @@ public class Triangle {
 				else
 					return "b not in range";
 			else
-				return "a and c not in range";
+				return "a not in range";
 					else
-						return "b and c not in range";
+						return "a and c not in range";
 				else
-					return "a and b not in range";
+					return "b and c not in range";
 			else
-				return "a,b,c not in range";
-		return null;
+				return "a and b not in range";
+		else
+			return "a,b,c not in range";
 	}
 
 }
