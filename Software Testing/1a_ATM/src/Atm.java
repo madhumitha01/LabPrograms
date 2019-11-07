@@ -36,7 +36,7 @@ public class Atm {
 		System.out.println("\nSelect account type \n1:Saving \n2:Current\n");
 		int type=sc.nextInt();
 		if(type!=1 && type!=2){
-			System.out.println("Invalid type");
+			System.out.println("Invalid account type");
 			return false;
 		}
 		return true;
@@ -55,7 +55,7 @@ public class Atm {
 			ch=sc.nextInt();
 			if(ch==1)
 			{
-				System.out.println("Enter amount to deposite : ");
+				System.out.println("Enter amount to deposit : ");
 				x=sc.nextInt();
 				this.amount+=x;
 				System.out.println("Done");
@@ -75,7 +75,7 @@ public class Atm {
 					}
 					else
 					{
-						System.out.println("enter amount in multiple of 100\n");
+						System.out.println("Enter amount in multiple of 100\n");
 					}
 				}
 				else
